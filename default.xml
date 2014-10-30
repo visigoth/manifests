@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+  <remote fetch="ssh://github.com/visigoth/" name="gh" />
+  <default remote="gh" revision="master"/>
+  <project name="arcanist" path="arca"/>
+  <project name="bashrc_dispatch" path="bashrc"/>
+</manifest>
