@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
   <remote fetch="ssh://github.com/visigoth/" name="gh" />
+  <remote fetch="ssh://review.buffy.fb.com:29418/" name="buffy"/>
   <default remote="gh" revision="master"/>
   <project name="arcanist" path="arca"/>
   <project name="bashrc_dispatch" path="bashrc"/>
+  <project name="platform/art" path="art" remote="buffy"/>
 </manifest>
